@@ -11,48 +11,76 @@
 </head>
 
 <body>
-    <main>
-        <header class="page-header">
-            <img src="images/logo.jpg" alt="logo" class="logo">
-            诺曼中文学校<br>
-            Norman Chinese School
-            <nav class="main-nav">
-                <ul class="main-menu">
-                    <li>
-                        Home<br>首页                       
-                    </li>
-                    <li>
-                        About Us<br>关于我们
-                    </li>
-                    <li>
-                        Notice<br>通知
-                    </li>
-                    <li>
-                        Calendar<br>日程表
-                    </li>
-                    <li>
-                        Registration<br>注册
-                    </li>
-                    <li>
-                        Contact Us<br>联系我们
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <section class="welcome">
-           <p> Welcome!<br>
-                欢迎！
-            </p>
-            <p>
-                Learning Chinese Made Fun
-            </p>
-            Learn More
-        </section>
-        
-        <footer>
-            <h3>Footer Content</h3>
-        </footer>
-    </main>
+    <div class="whole-container">
+        <main>
+            <header id="theHeader" class="page-header">
+                <img src="images/logo.jpg" alt="logo" class="logo">
+                <h3>诺曼中文学校<br>
+                Norman Chinese School</h3>
+                <nav class="main-nav">
+                    <ul class="main-menu">
+                        <li>
+                            <a href="#home"><button class="nav-link">Home<br>首页</button></a>
+                        </li>
+                        <li>
+                            <a href="#aboutUs"><button class="nav-link">About Us<br>关于我们</button></a>
+                        </li>
+                        <li>
+                            <a href="#notice"><button class="nav-link">Notice<br>通知</button></a>
+                        </li>
+                        <li>
+                            <a href="#calendar"><button class="nav-link">Calendar<br>日程表</button></a>
+                        </li>
+                        <li>
+                            <a href="#registration"><button class="nav-link">Registration<br>注册</button></a>
+                        </li>
+                        <li>
+                            <a href="#contactUs"><button class="nav-link">Contact Us<br>联系我们</button></a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <section id="home" class="welcome">
+                <p> Welcome!<br>
+                    欢迎！
+                </p>
+                <p>
+                    Learning Chinese Made Fun
+                </p>
+                Learn More
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <section id="aboutUs" class="page-section">
+                About Us
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <section id="notice" class="page-section">
+                Notice
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <section id="calendar" class="page-section">
+                Calendar
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <section id="registration" class="page-section">
+                Registration
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <section id="contactUs" class="page-section">
+                Contact Us
+                <a href="#theHeader"><button>Back to top</button></a>
+            </section>
+
+            <footer>
+                <h3>Footer Content</h3>
+            </footer>
+        </main>
+    </div>
 </body>
 
 </html>
