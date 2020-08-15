@@ -11,15 +11,16 @@ ul {
 .page-header {
     display: grid;
     grid-template-columns: 7em 1fr;
-    border: solid yellow;
+    /* border: solid yellow; */
     background-color: lightblue;
 }
 .main-menu {
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    border: solid green;
+    /* border: solid green; */
     /* text-align: center; */
 }
 
@@ -48,16 +49,16 @@ ul {
 }
 
 .whole-container {
-    max-width: 100em;
+    max-width: 120em;
     margin: auto;
-    border: solid deeppink;
+    border: 1px solid gray;
 }
 
 .page-section {
     height: 36em;
     padding: 5vw;
-    border: solid orange;
-    background: yellowgreen;
+    border-bottom: 1px solid gray;
+    background: lightskyblue;
     text-align: center;
 }
 
